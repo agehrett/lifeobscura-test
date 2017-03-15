@@ -65,11 +65,42 @@ body {
     }
   }
 
+.featuredpost {
+  overflow: hidden;
+  position: relative;
+}
+
+.featuredpost img {
+  height: 100%;
+  opacity: .70;
+
+}
+
+.feature-text {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  top: 20%;
+  left: 9%;
+  padding: 2px;
+  background-color: rgba(189, 191, 193, .8);
+
+}
+
 .wide-box {
   width: 100%;
   height: 300px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.wide-featuredpost {
+  overflow: hidden;
+
+}
+
+.wide-featuredpost img {
+  width: 110%;
 
 }
 
@@ -77,4 +108,20 @@ body {
   .wide-box {
     margin-top: -30px;
   }
+}
+
+.main-content {
+ margin: 30px;
+}
+
+.sidebar {
+  width: 25%;
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.post-list {
+  width: 72%;
+
 }
