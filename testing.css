@@ -92,16 +92,19 @@ body {
   height: 300px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  overflow: hidden;
+  text-align: center;
 }
 
 .wide-featuredpost {
-  overflow: hidden;
-
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .wide-featuredpost img {
-  width: 110%;
-
+  width: 100%;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 768px) {
