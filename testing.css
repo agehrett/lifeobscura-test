@@ -93,12 +93,11 @@ body {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   overflow: hidden;
-  text-align: center;
+
 
 }
 
 .wide-featuredpost {
-  display: inline-block;
   height: 100%;
   vertical-align: middle;
   position: relative;
@@ -106,7 +105,9 @@ body {
 
 .wide-featuredpost img {
   width: 100%;
-  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 768px) {
