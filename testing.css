@@ -63,6 +63,10 @@ body {
       border-top: 1px solid black;
       border-bottom: 1px solid black;
     }
+
+    .featuredpost img {
+      width: 100%;
+    }
   }
 
 .featuredpost {
@@ -93,8 +97,6 @@ body {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   overflow: hidden;
-
-
 }
 
 .wide-featuredpost {
@@ -113,6 +115,10 @@ body {
 @media only screen and (max-width: 768px) {
   .wide-box {
     margin-top: -30px;
+  }
+
+  .wide-featuredpost img {
+    height: 100%;
   }
 }
 
