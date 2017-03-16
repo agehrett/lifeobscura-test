@@ -94,12 +94,14 @@ body {
   border-bottom: 1px solid black;
   overflow: hidden;
   text-align: center;
+
 }
 
 .wide-featuredpost {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
+  position: relative;
 }
 
 .wide-featuredpost img {
