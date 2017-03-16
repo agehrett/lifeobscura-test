@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+/*header and nav bar*/
 .header {
   font-family: sans-serif;
   color: #003300;
@@ -31,7 +32,7 @@ body {
 
 }
 
-
+/*featured posts on main page*/
 .container {
   display: flex;
   justify-content: center;
@@ -126,6 +127,7 @@ body {
   }
 }
 
+/*page content on main page, includes post list and sidebar*/
 .main-content {
  margin: 30px;
 }
