@@ -1,60 +1,89 @@
 /*variables*/
+
+$light-grey-color: rgba(229, 230, 232, .8);
+
+
+
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /*header and nav bar*/
 .header {
   font-family: sans-serif;
   color: #003300;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .navbar {
   display: flex;
-  justify-content: center; }
-  .navbar ul {
+  justify-content: center;
+
+  ul {
     list-style: none;
-    padding: 0; }
-  .navbar li {
+    padding: 0;
+  }
+
+  li {
     display: inline;
-    padding: 15px; }
+    padding: 15px;
+  }
+}
 
 /*featured posts on main page*/
 .container {
   display: flex;
   justify-content: center;
-  margin: 30px; }
+  margin: 30px;
+
+}
 
 @media only screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0; } }
+  .container
+    {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
 .box {
   height: 200px;
   width: 275px;
+
   margin-left: 15px;
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
 @media only screen and (max-width: 768px) {
-  .box {
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    height: 300px;
-    border: 0; }
+  .box
+    {
+      margin-bottom: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      height: 300px;
+      border: 0;
 
-  .featuredpost img {
-    width: 100%; } }
+    }
+
+    .featuredpost img {
+      width: 100%;
+    }
+  }
+
 .featuredpost {
   overflow: hidden;
-  position: relative; }
+  position: relative;
+}
 
 .featuredpost img {
   height: 100%;
-  opacity: .70; }
+  opacity: .70;
+
+}
 
 .feature-text {
   text-align: center;
@@ -63,41 +92,53 @@ body {
   top: 20%;
   left: 9%;
   padding: 2px;
-  background-color: rgba(229, 230, 232, 0.8); }
+  background-color: $light-grey-color;
+
+}
 
 .wide-box {
   width: 100%;
   height: 300px;
-  overflow: hidden; }
+
+  overflow: hidden;
+}
 
 .wide-featuredpost {
   height: 100%;
   vertical-align: middle;
-  position: relative; }
+  position: relative;
+}
 
 .wide-featuredpost img {
   width: 100%;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+}
 
 @media only screen and (max-width: 768px) {
   .wide-box {
-    margin-top: -30px; }
+    margin-top: -30px;
+  }
 
   .wide-featuredpost img {
-    height: 100%; } }
+    height: 100%;
+  }
+}
+
 /*page content on main page, includes post list and sidebar*/
 .main-content {
-  margin: 30px; }
+ margin: 30px;
+}
 
 .sidebar {
   width: 25%;
   float: right;
   border: 1px solid black;
-  text-align: center; }
+  text-align: center;
+}
 
 .post-list {
-  width: 72%; }
+  width: 72%;
 
-/*# sourceMappingURL=testing.css.map */
+}
